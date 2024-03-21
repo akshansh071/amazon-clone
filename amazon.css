@@ -1,0 +1,460 @@
+*{
+margin: 0px;
+font-family: Arial, Helvetica, sans-serif;
+border: border-box;
+} 
+.navbar{
+height: 60px;
+background-color: #0f1111;
+color: white;
+display: flex;
+align-items: center;
+}
+.logo{
+              background-image: url("amazon_logo.png");
+              background-size: cover;
+              height: 50px;
+              width: 120px;
+}
+.border{
+              border: 1.5px solid transparent;
+}
+.border:hover{
+              border: 1.5px solid white;
+}
+.nav-add {
+              width: 88px;
+              height: 50px;
+              border: 1.5px solid transparent;
+}
+.nav-add:hover{
+              border-color: white;
+}
+#one {
+              font-size: 12px;
+              color: #cccccc;
+              margin-left: 15px;
+              padding-top: 15px;
+}
+#two{
+              font-size: 14px;
+              color: #ffffff;
+              margin-left: 4px;
+              font-weight: bold;
+}
+.add-icon{
+display: flex;
+align-items: center;
+}
+.nav-add{
+              margin: 5px,2px,5px,0px;
+              padding: 0px,9px;
+}
+.search{
+              display: flex;
+              align-items: center;
+              width: 746px;
+              height: 60px;
+              
+}
+.option{
+              width: 50px;
+              height: 38px;
+}
+#srch {
+              width: 650px;
+              height: 38px;
+              font-size: 16px;
+}
+#button{ 
+              width: 46px;
+              height: 38px;
+              background-color: rgba(255, 166, 0, 0.918);
+              border: 0px;
+}
+.option:hover{
+              background-color:rgba(226, 226, 226, 0.781);
+}
+#button:hover{
+              background-color: rgba(255, 166, 0, 0.521);
+}
+#space{
+              height: 40px;
+              width:70px;
+              display: flex;
+              flex-direction: row;
+              align-items: center;
+             margin-left: 10px;
+             padding-top: 10px;
+             border: 1.5px solid transparent;    
+             position: relative;
+             left: 0.5px;        
+}
+#space:hover{
+              border-color: white;
+}
+#hello {
+              height: 40px;
+              width: 130px;
+              display: flex;
+              flex-direction: column;
+              align-items:flex-start;
+              text-align: start;
+              padding-top: 15px;
+              border: 1.5px solid transparent;
+}
+#hello:hover{
+              border: 1.5px solid white;
+}
+#text{
+              font-size: 12px;
+              padding-left: 5px;
+}
+#list{
+              background-color: transparent;
+              font-size: 14px;
+              font-weight: bold;
+              color: white;
+              border-color: transparent;
+}
+.return{
+              height:40px;
+              width: 76px;
+              display: flex;
+              flex-direction: column;
+              align-items: flex-start;
+              padding-top: 15px;
+              margin-left: 10px;
+              border: 1.5px solid transparent;
+}
+.return:hover{
+              border-color: white;
+}
+#first{
+              font-size: 12px;
+}
+#second{
+              font-size: 14px;
+              font-weight: bold;
+}
+#cart{
+              margin-left: 30px;
+              height: 40px;
+              display: flex;
+              padding-top: 15px;
+              border: 1.5px solid transparent;
+              position: relative;
+              right: 20px;
+}
+#cart:hover{
+              border-color: white;
+}
+#cart-logo{
+              padding-top: 7px;
+              width: 40px;
+              height: 25px;
+              scale: 2;
+              position: relative;
+              left:20px;
+}
+#cart-text{
+              font-size: 14px;
+              font-weight: bold;
+              padding-top: 15px;
+}
+#photo{
+             height: 30px;
+             width: 25px;
+}
+#box{
+              font: 12px;
+              font-weight: bold;
+              background-color: transparent;
+              border-color: transparent;
+              color: white;
+              text-transform: uppercase;
+}
+.below-nav{
+              height: 39px;
+              background-color: #232f3e;
+              color: white;
+              display: flex;
+             
+}
+#all {
+              display: flex;
+              padding-top: 10px;
+              padding-left: 15px;
+              border: 1.5px solid transparent;
+}
+#all:hover{
+              border-color: white;
+}
+#list {
+              margin-left: 5px;
+              font-size: 15px;
+              font-weight: bold;
+}
+#items{
+              width: 450px;
+              display: flex;
+              justify-content: space-evenly;
+}
+.below-nav-items{
+             padding-top: 10px;
+              font-size: 14px;
+              font-weight: 400;
+              color: white;
+              border: 1.5px solid transparent;
+              
+}
+.below-nav-items:hover{
+              border-color: white;
+}
+.hero-img {
+              height: 600px;
+              background-image: url("hero.jpg");
+              background-size:100%;
+              position: relative;
+}
+#amazon-link {
+              height: 39px;
+              background-color: #f5f6f6;
+              color: black;
+              font-size: 14px;
+              position: relative;
+              top: 250px;
+              display: flex;
+              justify-content: center;
+}
+main{
+              background-color: grey;
+}
+.amazon-in {
+              text-decoration: none;
+              padding-top: 10px;
+}
+#in-link:hover{
+              color: rgba(255, 0, 0, 0.579);
+              text-decoration: underline;
+}
+#div-box{
+              height: 900px;
+              background-color: transparent;     
+              position: relative;
+              left:24px;
+              top: 270px;    
+              display: flex;
+              align-items: center;
+              flex-wrap: wrap;
+}
+.box {
+              width: 312px;
+              height: 420px;
+              background-color: aqua;
+              margin: 10px;
+              position: relative;
+              left: 7px;
+} 
+#box1{
+background-image: url("box1_image.jpg");
+background-size: cover;
+}
+
+#box2{
+              background-image: url("box2_image.jpg");
+              background-size: cover;
+}
+#box3{
+              background-image: url("box3_image.jpg");
+              background-size: cover; 
+}
+#box4{
+              background-image: url("box4_image.jpg");
+              background-size: cover;  
+}
+#box5{
+              background-image: url("box5_image.jpg");
+             background-size: cover;             
+}
+#box6{
+              background-image: url("box6_image.jpg");
+              background-size: cover;         
+}
+#box7{
+              background-image: url("box7_image.jpg");
+              background-size: cover;        
+}
+#box8{
+              background-image: url("box8_image.jpg");
+              background-size: cover;       
+}
+#upper-footer {
+              height: 166px;
+              margin-top: 620px;
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+}
+#inside{
+              height: 80px;
+              background-color: white;
+             display: flex;
+             flex-direction: column;
+             justify-content: center;
+             padding-left: 560px;
+}
+#recommand {
+font-size: 14px;
+}
+#sign{
+width: 230px;
+height: 23px;
+border: 1px solid red;
+background-color: orange;
+border-radius: 8%;
+margin-top: 5px;
+margin-bottom: 5px;
+position: relative;
+right: 10px;
+font-weight: bold;
+font-size: 14px;
+display: flex;
+justify-content: center;
+padding-top: 5px;
+}
+#start{
+              font-size: 12px;
+              position: relative;
+              left: 35px;
+}
+#top{
+              height: 50px;
+              background-color: #23364d;
+              color: white;
+              font-size: 13.5px;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+}
+#top:hover{
+              background-color: #405670;
+}
+.info-foot{
+height: 170px;
+background-color: #232f3e;
+display: flex;
+justify-content: space-evenly;
+padding: 120px;
+
+}
+.info{
+              height: 318px;
+              width: 135px;
+              margin: 10px;
+              position: relative;
+              bottom: 100px;
+              color: white;
+              font-size: 14px;
+              font-weight: 300;
+              display: flex;
+              flex-direction: column;
+              justify-content:space-evenly;
+            
+}
+.info-head{
+              font-size: 16px;
+              font-weight: bold;
+}
+#info-three{
+width: 220px;
+height: 190px;
+}
+#info-two{
+width: 160px;
+}
+#info-one{
+              height: 250px;
+}
+.details:hover{
+              text-decoration: underline;
+}
+#below-info {
+              height: 100px;
+            background-color:#232f3e;
+            display: flex;
+            justify-content: center;
+            
+}
+#logo-foot{
+              height: 60px;
+              width: 100px;
+              margin-right: 50px;
+              position: relative;
+              top: 10px;
+}
+.footer-part{
+              background-color: transparent;
+              height: 34px;
+              width: 130px;
+              border-radius: 6%;
+              border: 0.5px solid rgb(136, 126, 126);
+              color: white;
+              text-decoration: none;
+              margin-right: 10px;
+              position: relative;
+              top: 20px;
+} 
+#en-button{
+  height: 12px;
+  width: 18px;
+  margin-right: 10px;
+}
+#below-space{
+  height: 20px;
+  background-color:#131a22;
+  border: none;
+}
+#main-footer{
+              height: 470px;
+              background-color: #131a22;
+              display: flex;
+              flex-wrap: wrap;
+              align-items: center;
+              justify-content: center;
+}
+.elements{ 
+              height: 80px;
+              width: 100px;
+             margin-left: 70px;
+             color: #999999;
+             font-size: 12px;
+}
+.elements:hover{
+              text-decoration: underline;
+}
+.title{
+              color: white;
+              font-size: 12px;
+}
+#copyright{
+              height: 90px;
+              background-color:#131a22;
+              color:#dddddd;
+              font-size: 12px;
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              justify-content:space-evenly;
+
+}
+.copy-item {
+  margin-right: 10px;
+}
+#lowest{
+  position: relative;
+  bottom: 15px;
+}
+.copy-item:hover{
+  text-decoration: underline;
+}
